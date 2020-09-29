@@ -10,4 +10,5 @@ workflows:
   welcome:
     # Run the welcome/run job in its own container
     jobs:
+      - checkout
       - welcome/run
